@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <link rel="stylesheet" href="style.css">
+    <title>my-cv</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="header__container">
+            <img src="img/logotype.png" alt="logo" class="header__logo">
+            <nav class="header__body">
+                <ul id="menu" class="header__menu">
+                    <li class="menu__list"><a href="#ex1" class="menu__link">Code</a></li>
+                    <li class="menu__list"><a href="#ex2" class="menu__link">Skills</a></li>
+                    <li class="menu__list"><a href="#ex3" class="menu__link">About me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="page">
+        <section  class="hello">
+            <div class="hello__container">
+               <div class="hello__body">
+                <img alt="my_photo" src="img/avatar.png" class="hello__avatar"> 
+                <h1 class="hello__title">
+                    HI, i’m Ilya, <br>
+                   <span>Feature Frontend Devoloper</span>
+                </h1>
+               </div>
+            </div>
+        </section>
+        <section  id="ex1" class="code">
+            <div class="code__container">
+                <div class="code__title title">Code</div>
+                <div class="code__body">
+                 <pre>
+                     <code>
+                        const convert = (obj_arr)=> {
+
+                            if(Array.isArray(obj_arr)){
+                              return Object.assign({},obj_arr);
+                            }
+                            if(!Array.isArray(obj_arr)){
+                              return Object.values(obj_arr)
+                            }
+                          }
+                          
+                     </code>
+                 </pre> 
+                </div>
+            </div>
+        </section>
+        <section id="ex2" class="skills">
+          <div class="skills__container">
+              <div class="skills__title title">Skills</div>
+              <div class="skills__body">
+                 <ul class="skills__list">
+                     <li class="list">html</li>
+                     <li class="list">css + scss</li>
+                     <li class="list">javascript</li>
+                     <li class="list">figma</li>
+                 </ul>
+                 <img src="img/html.png" alt="skills_img" class="skills__img"></div>
+              </div>
+          </div>
+        </section>
+        <section id="ex3" class="about-me">
+             <div class="about-me__container">
+                <div class="about-me__title title">About me</div>
+                <div class="about-me__text">I am 13 years old, I already know the basics of html, css, js. I am on this course in order to learn how to layout correctly, repeat what I have learned before and possibly learn something new</div>
+             </div>
+        </section>
+    </main>
+    <footer class="footer">
+       <div class="footer__container">
+         <div class="footer__row">
+             <a href="https://github.com/Kiborgubissa    " class="footer__github"><img src="img/git.png" alt="git-hub"></a> 
+             <div class="footer__year">2022</div>
+             <div class="footer__email">ilarud974@gmail.com</div>
+             <a href="https://rs.school/js-stage0/"  class="footer__rs-school"><img src="img/rs.png" alt="rs-school"></a> 
+         </div>
+       </div>
+    </footer>
+</div>
+</body>
+</html>
