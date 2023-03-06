@@ -4,7 +4,7 @@ ______________
 ### Contacts:
   + **e-mail**: ilarud974@gmail.com
   + **discord**: Iser#0809
-  + **github**: kiborgubissa
+  + **github**: Kiborgubissa
   + **telegram**: @Front_rud
 
 ----
