@@ -60,17 +60,17 @@
             <div class="code-example__text">Your task is to write a function that takes two integers rows and columns and returns a chessboard pattern as a two dimensional array.</div>
             <pre class="example-code__code code"><code>
                     function chessBoard(n,m) {
-                        let a = new Array(n)  
-                        for(let i = 0;i &lt; n;i++){   
-                            a[i] = new Array(m)    
-                            for(let j = 0;j &lt; m;j++){     
-                                if((i + j) % 2){        
-                                    a[i][j] = 'X'      
-                                }else{        
-                                    a[i][j] = 'O'     
-                                }    
-                            }  
-                        }  
+                        let a = new Array(n)
+                        for(let i = 0;i &lt; n;i++){
+                            a[i] = new Array(m)
+                            for(let j = 0;j &lt; m;j++){
+                                if((i + j) % 2){
+                                    a[i][j] = 'X'
+                                }else{
+                                    a[i][j] = 'O'
+                                }
+                            }
+                        }
                         return a
                     }
             </code></pre>
