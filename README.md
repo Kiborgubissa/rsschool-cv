@@ -1,1 +1,1 @@
-https://Kiborgubissa.github.io/rsschool-cv/cv
+https://kiborgubissa.github.io/rsschool-cv/
